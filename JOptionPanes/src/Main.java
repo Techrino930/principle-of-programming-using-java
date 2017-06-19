@@ -4,10 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-//    String inputdialog1 = JOptionPane.showInputDialog("Enter Your Name:");
-//    String inputdialog2 = JOptionPane.showInputDialog("Enter Your Birthyear:");
-//
-//    JOptionPane.showMessageDialog(null , inputdialog1  , "dew", JOptionPane.INFORMATION_MESSAGE);
+   String inputdialog1 = JOptionPane.showInputDialog("Enter Your Name:");
+   String inputdialog2 = JOptionPane.showInputDialog("Enter Your Birthyear:");
+      JOptionPane.showMessageDialog(null , inputdialog1  , "dew", JOptionPane.INFORMATION_MESSAGE);
 //
 //        char letter = 'A';
 //        char numChar = '4';
@@ -67,14 +66,14 @@ public class Main {
 //            System.out.println("Failed Operation");
 //        }
 
-        int number;
-     System.out.print("Enter an Integer: ");
-     Scanner input = new Scanner(System.in);
-    number = input.nextInt();
+//         int number;
+//      System.out.print("Enter an Integer: ");
+//      Scanner input = new Scanner(System.in);
+//     number = input.nextInt();
 
-        System.out.println("Is " + number + "divisible by 2 and 3? " + (number % 2 == 0 && number % 3 == 0));
-        System.out.println("Is " + number + "divisible by 2 or 3? " + (number % 2 == 0 ||number % 3 == 0));
-        System.out.println("Is " + number + "divisible by 2 or 3, but not both? " + (number % 2 == 0 ^ number % 3 == 0));
+//         System.out.println("Is " + number + "divisible by 2 and 3? " + (number % 2 == 0 && number % 3 == 0));
+//         System.out.println("Is " + number + "divisible by 2 or 3? " + (number % 2 == 0 ||number % 3 == 0));
+//         System.out.println("Is " + number + "divisible by 2 or 3, but not both? " + (number % 2 == 0 ^ number % 3 == 0));
 
         System.exit(0);
 
